@@ -31,7 +31,7 @@ const CartActions: FC<ICartItem> = ({ id, title, price, images }) => {
     return (
         <div className={styles.cartActions}>
             <div className={styles.quantity}>
-                <h3>Quantity :</h3>
+                <h3>Количество :</h3>
 
                 <div className={styles.quantityButton}>
                     <button onClick={onClickMinus}>-</button>
@@ -42,7 +42,7 @@ const CartActions: FC<ICartItem> = ({ id, title, price, images }) => {
                 </div>
             </div>
 
-            <ButtonMain onClick={onClickAddToCart} >{cartItem ? 'Add more' : 'Add To Cart'}</ButtonMain>
+            <ButtonMain onClick={onClickAddToCart} >{cartItem ? 'Добавить еще' : 'В корзину'}</ButtonMain>
         </div>
     );
 };

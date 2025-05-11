@@ -56,17 +56,16 @@ const ShopSingleBlock: FC = () => {
                         <div className={styles.wrapperDescription}>
                             <h2>{foodById.title}</h2>
 
-                            <div className={styles.info}>
-                                {/* <FoodRating rating={foodById.rating}/> */}
-                                <FoodPrice price={foodById.price} quantity={cartItem ? cartItem.quantity : 1}/>
-                            </div>
+                            <h3>{foodById.description}</h3>
 
                             <div className={styles.description}>
-                                <p>{foodById.description}</p>
-                                <p>{foodById.description2}</p>
-                                <p>{foodById.description3}</p>
-                                <p>{foodById.description4}</p>
+                                <p>{foodById.ingredients}</p>
+                                <p>{foodById.cooking}</p>
+                                <p>{foodById.expirationDate}</p>
+                                <p>{foodById.calorie}</p>
                             </div>
+
+                            <p className={styles.price}>{`Цена за упаковку: ${foodById.price} ₽`}</p>
 
                             <CartActions {...foodById} quantity={1}/>
                         </div>
