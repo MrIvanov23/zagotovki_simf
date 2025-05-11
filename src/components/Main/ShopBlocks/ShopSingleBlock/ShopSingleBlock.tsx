@@ -57,11 +57,16 @@ const ShopSingleBlock: FC = () => {
                             <h2>{foodById.title}</h2>
 
                             <div className={styles.info}>
-                                <FoodRating rating={foodById.rating}/>
+                                {/* <FoodRating rating={foodById.rating}/> */}
                                 <FoodPrice price={foodById.price} quantity={cartItem ? cartItem.quantity : 1}/>
                             </div>
 
-                            <p className={styles.description}>{foodById.description}</p>
+                            <div className={styles.description}>
+                                <p>{foodById.description}</p>
+                                <p>{foodById.description2}</p>
+                                <p>{foodById.description3}</p>
+                                <p>{foodById.description4}</p>
+                            </div>
 
                             <CartActions {...foodById} quantity={1}/>
                         </div>

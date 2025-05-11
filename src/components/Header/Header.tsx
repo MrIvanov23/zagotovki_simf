@@ -23,7 +23,7 @@ const Header: FC = () => {
                     <HeaderLogo />
                     <HeaderNav />
                 </div>
-                <div className={styles.wrapper}>
+                <div className={styles.wrapper2}>
                     <HeaderSearch />
                     <HeaderCart />
                 </div>

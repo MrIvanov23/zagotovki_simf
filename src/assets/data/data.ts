@@ -2,10 +2,9 @@
 
 // used in /components/Header/HeaderNav
 export const dataNav = [
-    {name: 'Home', pathname: '/'},
-    {name: 'About', pathname: '/about'},
-    {name: 'Shop', pathname: '/shop'},
-    {name: 'Team', pathname: '/team'}
+    {name: 'Главная', pathname: '/'},
+    {name: 'Магазин', pathname: '/shop'},
+    {name: 'Доставка и оплата', pathname: '/team'}
 ];
 
 // used in /components/Footer
@@ -17,12 +16,14 @@ export const dataFooterNav = [
 
 // used in /components/UI/FoodCards/FoodCategories
 export const dataCategories = [
-    {id: 0, category: "all"},
-    {id: 1, category: "fruits"},
-    {id: 2, category: "vegetables"},
-    {id: 3, category: "mushrooms"},
-    {id: 4, category: "greens"},
-    {id: 5, category: "berries"},
+    {id: 0, category: "Все"},
+    {id: 1, category: "Сырники"},
+    {id: 2, category: "Блины"},
+    {id: 3, category: "Вафли"},
+    {id: 4, category: "Мясные сырые"},
+    {id: 5, category: "Мясные готовые"},
+    {id: 6, category: "Рыба"},
+    {id: 7, category: "Крупы"},
     
 ];
 

@@ -10,8 +10,8 @@ interface IFoodPrice {
 const FoodPrice: FC<IFoodPrice> = ({ price, quantity = 1 }) => {
     return (
         <h4 className={styles.foodPrice}>
-            <span>{`$${price * quantity + 5 * quantity}.00`}</span>
-            {`$${price * quantity}.00`}
+            {/* <span>{`${price * quantity + 5 * quantity} ₽`}</span> */}
+            {`${price * quantity} ₽`}
         </h4>
     );
 };

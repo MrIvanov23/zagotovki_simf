@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const URL = 'https://66913f9226c2a69f6e8f1533.mockapi.io/foodProducts';
+export const URL = 'https://6820573372e59f922ef85e37.mockapi.io/zagotovki_simf';
 
 
 

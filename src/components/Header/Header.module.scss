@@ -50,17 +50,45 @@
                 }
             }
         }
+
+        .wrapper2 {
+            display: flex;
+            justify-content: end;
+
+            width: 100%;
+        }
+
+        .wrapper3 {
+            display: flex;
+            justify-content: end;
+
+            width: 100%;
+        }
+
     }
 
     &Logo {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 8px;
+        gap: 15px;
+
+        .logoImage {
+            background-image: url(../../assets/images/logo/logo_image.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+
+            width: 60px;
+            height: 66px;
+        }
 
         .logoName {
-            font-weight: 700;
-            font-size: 38px;
+            background-image: url(../../assets/images/logo/logo_name.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+
+            width: 180px;
+            height: 50px;
         }
 
         @media (max-width: 800px) {
