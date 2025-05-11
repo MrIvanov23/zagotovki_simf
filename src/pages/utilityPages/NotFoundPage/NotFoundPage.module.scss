@@ -1,0 +1,97 @@
+@import "../../../scss/variables";
+
+.notFount {
+    display: flex;
+    justify-content: center;
+
+    height: 899px;
+
+    background-color: #bbc9c9;
+
+    @media (max-width: 1800px) {
+        height: auto;
+    }
+
+    .wpapper {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+
+        position: relative;
+
+        width: 1920px;
+        height: 898px;
+
+        @media (max-width: 1800px) {
+            flex-direction: column;
+
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .icon {
+        position: absolute;
+        top: 1px;
+
+        width: 1920px;
+        height: 898px;
+
+        background-image: url(../../../assets/images/background-image/NotFoundBG.jpg);
+
+        @media (max-width: 1919px) {
+            position: static;
+            width: 100%;
+
+            @media (max-width: 1100px) {
+                display: none;
+            }
+        }
+    }
+
+    .description {
+        position: relative;
+        z-index: 5;
+
+        padding-right: 20vh;
+
+        @media (max-width: 1800px) {
+            order: -1;
+
+            padding: 40px;
+
+            @media (max-width: 1100px) {
+                span {
+                    svg {
+                        width: 251px;
+                        height: 110px;
+                    }
+                }
+            }
+        }
+
+        h2 {
+            margin-top: 10px;
+
+            font-weight: 800;
+            font-size: 70px;
+
+            @media (max-width: 1100px) {
+                font-size: 40px;
+            }
+        }
+
+        p {
+            margin-top: 10px;
+            margin-bottom: 30px;
+
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 165%;
+
+            @media (max-width: 1100px) {
+                font-size: 14px;
+            }
+        }
+    }
+}

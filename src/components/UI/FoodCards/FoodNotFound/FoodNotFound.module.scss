@@ -1,0 +1,16 @@
+.foodNotFound {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    h3 {
+        font-weight: 700;
+        font-size: 50px;
+
+        @media (max-width: 720px) {
+            font-size: 30px;
+        }
+    }
+}

@@ -1,0 +1,220 @@
+@import "../../scss/variables";
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 204px;
+
+    background-color: $main-bg-color;
+
+    @media (max-width: 1700px) {
+        padding: 20px 40px;
+        height: auto;
+
+        @media (max-width: 800px) {
+            padding: 10px 16px;
+        }
+    }
+
+    &Wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 130px;
+
+        width: 1596px;
+
+        @media (max-width: 1700px) {
+            flex-wrap: wrap;
+            gap: 20px;
+
+            width: 100%;
+        }
+
+        .wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            @media (max-width: 1700px) {
+                width: 100%;
+
+                @media (max-width: 400px) {
+                    &:first-child {
+                        flex-wrap: wrap;
+                        gap: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    &Logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+
+        .logoName {
+            font-weight: 700;
+            font-size: 38px;
+        }
+
+        @media (max-width: 800px) {
+            .logoName {
+                font-size: 24px;
+            }
+
+            svg {
+                width: 20px;
+                height: 30px;
+            }
+        }
+    } 
+
+    &Nav {
+        margin-left: 150px;
+
+        @media (max-width: 1700px) {
+            margin-left: 0;
+        }
+
+        ul {
+            display: flex;
+            gap: 50px;
+
+            width: 564px;
+
+            @media (max-width: 1200px) {
+                width: 100%;
+
+                @media (max-width: 800px) {
+                    gap: 20px;
+                }
+            }
+
+            a {
+                text-decoration: none;
+                font-weight: 700;
+                font-size: 20px;
+
+                color: inherit;
+
+                cursor: pointer;
+
+                @media (max-width: 800px) {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    &Search {
+        position: relative;
+
+        svg {
+            position: absolute;
+            top: 5px;
+            right: 6px;
+
+            @media (max-width: 1600px) {
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+        input {
+            width: 376px;
+            height: 66px;
+            padding: 5px 65px 5px 25px;
+
+            background-color: $second-input-color;
+            border-radius: 36px;
+
+            &:focus {
+                border: 1px solid $main-border-color;
+            }
+
+            &::placeholder {
+
+                color: #ababab;
+                opacity: 1; /* Firefox */
+            }
+              
+            &::-ms-input-placeholder { /* Edge 12 -18 */
+                color: #ababab;
+            }
+
+            @media (max-width: 1600px) {
+                width: 40vw;
+                min-width: 150px;
+                height: 40px;
+                padding-right: 40px;
+                padding-left: 16px;
+            }
+        }
+
+
+    }
+
+    &Cart {
+        position: relative;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 159px;
+        height: 66px;
+        padding: 5px 6px 5px 65px;
+        margin-left: 18px;
+
+        background-color: transparent;
+        border: 1px solid $main-border-color;
+        border-radius: 33px;
+
+        svg {
+            position: absolute;
+            top: 4px;
+            left: 5px;
+        }
+
+        span {
+            font-weight: 600;
+            font-size: 18px;
+        }
+
+        @media (max-width: 1600px) {
+            width: 20vw;
+            min-width: 125px;
+            height: 40px;
+            padding-left: 40px;
+
+            svg {
+                width: 30px;
+                height: 30px;
+            }
+
+            span {
+                font-size: 14px;
+            }
+
+            @media (max-width: 400px) {
+                min-width: 40px;
+                width: 40px;
+                padding: 0;
+
+                svg {
+                    left: 4px;
+                }
+
+                span {
+                    display: none;
+                }
+            }
+        }
+    }
+}

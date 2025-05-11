@@ -1,0 +1,68 @@
+@import "../../../../scss/variables";
+
+.foodCategories {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    width: 1400px;
+    padding: 90px 0 20px;
+    margin: 0 auto;
+
+    @media (max-width: 1450px) {
+        width: 100%;
+        padding: 30px 16px;
+
+        overflow: scroll;
+    }
+    
+    h3 {
+        font-family: $third-font-family;
+        font-weight: 400;
+        font-size: 36px;
+
+        color: $third-text-color;
+
+        @media (max-width: 720px) {
+            font-size: 22px;
+        }
+    }
+
+    ul {
+        display: flex;
+        gap: 20px;
+
+        li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            width: 150px;
+            height: 40px;
+
+            background-color: $second-bg-color;
+            border: 1px solid $main-border-color;
+            border-radius: 12px;
+
+            cursor: pointer;
+
+            transition: 
+            background-color ease-in 300ms,
+            box-shadow ease-in 300ms;
+
+            @media (max-width: 720px) {
+                width: 100px;
+                height: 30px;
+            }
+
+            &:hover {
+                box-shadow: $second-box-shadow;
+            }
+        }
+
+        .active {
+            background-color: $main-button-color;
+            color: $fourth-text-color;
+        }
+    }
+}

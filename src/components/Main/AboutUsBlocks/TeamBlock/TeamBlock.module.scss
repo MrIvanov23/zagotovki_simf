@@ -1,0 +1,68 @@
+@import "../../../../scss/variables";
+
+.teamBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 1400px;
+    margin: 100px auto;
+
+    @media (max-width: 1450px) {
+        width: 100%;
+        margin: 30px auto;
+    }
+
+    h2 {
+        font-family: $third-font-family;
+        font-weight: 400;
+        font-size: 36px;
+        color: $third-text-color;
+
+        @media (max-width: 650px) {
+            font-size: 25px;
+            
+        }
+    }
+
+    h3 {
+        font-weight: 800;
+        font-size: 50px;
+        margin-bottom: 16px;
+
+        @media (max-width: 650px) {
+            font-size: 30px;
+            
+        }
+    }
+
+    p {
+        max-width: 850px;
+        margin-bottom: 42px;
+
+        text-align: center;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 165%;
+
+        @media (max-width: 1450px) {
+            padding: 0 16px;
+        }
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-column-gap: 27px;
+        grid-row-gap: 42px;
+
+        @media (max-width: 1450px) {
+            grid-template-columns: repeat(2, 1fr);
+
+            @media (max-width: 950px) {
+                grid-template-columns: repeat(1, 1fr);   
+            }
+        }
+    }
+}

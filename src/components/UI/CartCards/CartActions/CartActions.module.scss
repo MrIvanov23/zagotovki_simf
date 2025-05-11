@@ -1,0 +1,71 @@
+@import "../../../../scss/variables";
+
+.cartActions {
+    display: flex;
+    gap: 20px;
+
+    .quantity {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+
+        h3 {
+            font-weight: 700;
+            font-size: 20px;
+
+            @media (max-width: 1100px) {
+                font-size: 16px;
+
+                @media (max-width: 600px) {
+                    display: none;
+                }
+            }
+        }
+
+        &Button {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            width: 134px;
+            height: 80px;
+
+            border: 2px solid $second-border-color;
+            border-radius: 16px;
+
+            overflow: hidden;
+
+            @media (max-width: 1100px) {
+                width: 80px;
+                height: 40px;
+            }
+
+            button {
+                width: 30px;
+                height: 100%;
+
+                color: $fourth-text-color;
+
+                transition: background-color ease-in 300ms;
+
+                cursor: pointer;
+            }
+
+            button:last-child {
+                margin-right: -1px;
+            }
+
+            span {
+                display: block;
+
+                font-weight: 700;
+                font-size: 20px;
+            }
+
+            &:hover button {
+                background-color: $third-bg-color;
+            }
+        }
+    }
+}

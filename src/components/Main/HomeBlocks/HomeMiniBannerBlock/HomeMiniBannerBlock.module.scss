@@ -1,0 +1,30 @@
+.homeMiniBannerBlock {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+
+    padding: 150px 0 190px;
+    margin: 0 auto;
+
+    @media (max-width: 1600px) {
+        display: grid;
+        grid-template-columns: 60px 1fr 60px;
+        grid-template-rows: repeat(2, 1fr);
+
+        max-width: 745px;
+        padding: 70px 0;
+
+        @media (max-width: 850px) {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        article:first-child { 
+            grid-area: 1 / 1 / 2 / 3;
+        }
+
+        article:last-child {
+            grid-area: 2 / 2 / 3 / 4;
+        }
+    }
+}

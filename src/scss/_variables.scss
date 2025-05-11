@@ -1,0 +1,53 @@
+// fonts
+
+$main-font-family: "Roboto", sans-serif;
+$second-font-family: "Open Sans", sans-serif;
+$third-font-family: "Yellowtail", sans-serif;
+
+// colors
+
+$light: #ffffff;
+$dark-slate-grey: #274c5b;
+$dark-sea-green: #7eb693;
+$arylide-yellow: #efd372;
+$light-gray: #d4d4d4;
+$cultured: #f9f8f8;
+$anti-flash-white: #eff6f1;
+$davys-grey: #525c60;
+
+// text colors
+
+$main-text-color: $dark-slate-grey;
+$second-text-color: $davys-grey;
+$third-text-color: $dark-sea-green;
+$fourth-text-color: $light;
+
+// bg colors
+
+$main-bg-color: $light;
+$second-bg-color: $cultured;
+$third-bg-color: $dark-slate-grey;
+
+// button colors
+
+$main-button-color: $dark-slate-grey;
+$second-button-color: $arylide-yellow;
+$third-button-color: $light;
+
+$main-button-text-color: $third-button-color;
+$second-button-text-color: $main-button-color;
+
+// input colors
+
+$main-input-color: $main-bg-color;
+$second-input-color: $second-bg-color;
+
+// border colors
+
+$main-border-color: $light-gray;
+$second-border-color: $dark-slate-grey;
+
+// box-shadow 
+
+$main-box-shadow: 2px 5px 8px 2px $light-gray;
+$second-box-shadow: 3px 5px 8px 1px $light-gray;

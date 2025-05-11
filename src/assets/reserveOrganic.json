@@ -1,0 +1,376 @@
+[
+  {
+    "id": "1",
+    "title": "Apples",
+    "description": "Apples contain a large amount of fiber, pectin, vitamins C, group B, provitamin A. Fruits are rich in polyphenols with antioxidant properties, they have few calories and practically no sodium, fats and cholesterol.",
+    "price": 5,
+    "category": 1,
+    "rating": 5,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/5592085"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Red Apples",
+    "description": "Apples contain a large amount of fiber, pectin, vitamins C, group B, provitamin A. Fruits are rich in polyphenols with antioxidant properties, they have few calories and practically no sodium, fats and cholesterol.",
+    "price": 4,
+    "category": 1,
+    "rating": 5,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/5588514"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "White grapes",
+    "description": "White table grapes are a variety of table grapes.Vinifera (the genus of flowering plants Vitis) produces grapes, which are fruits (technically berries) that are harvested from deciduous woody vines.",
+    "price": 10,
+    "category": 1,
+    "rating": 3,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/17766212"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Muscat grapes",
+    "description": "Muscat is the world's oldest grape variety: it was cultivated back in the days of Ancient Greece. Nowadays, there are more than a hundred subspecies and hybrids of this variety. All of them are characterized by a rich fruity-sweet taste with notes of mandarin, apricot, peach and honey. In one form or another.",
+    "price": 11,
+    "category": 1,
+    "rating": 2,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/5597813"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Pears",
+    "description": "The high potassium content explains the beneficial effect of pears on the functioning of the cardiovascular system. The pear is also useful for lung function.",
+    "price": 9,
+    "category": 1,
+    "rating": 3,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/5597596"
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Peachs",
+    "description": "Peach - due to its high fiber content, fruits are well absorbed in the gastrointestinal tract, so fruit consumption is indicated for people suffering from digestive disorders.",
+    "price": 8,
+    "category": 1,
+    "rating": 4,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/5363292"
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Flat peachs",
+    "description": "Calcium and phosphorus present in peach have a beneficial effect on the musculoskeletal system, therefore, the inclusion of peaches in the menu is recommended for diseases of bones and joints.",
+    "price": 10,
+    "category": 1,
+    "rating": 4,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/5271661"
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Apricots",
+    "description": "Both fresh and dried apricot fruits contain many useful substances: vitamins B, C, E, K, nicotinic acid, trace elements (magnesium, calcium, potassium, iron, iodine, phosphorus), organic acids (citric, succinic, malic acids).",
+    "price": 7,
+    "category": 1,
+    "rating": 2,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/5592689"
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Tomatoes",
+    "description": "The main advantages of tomatoes are their sweet taste, the ability not to spoil for a long time and their rich vitamin composition. Potassium is good for the heart and removes excess fluid from the body.",
+    "price": 6,
+    "category": 2,
+    "rating": 4,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/17766687"
+    ]
+  },
+  {
+    "id": "10",
+    "title": "Cherry Tomatoes",
+    "description": "The main advantages of cherries are their all–season sweet taste, the ability not to spoil for a long time and their rich vitamin composition. Potassium is good for the heart and removes excess fluid from the body.",
+    "price": 12,
+    "category": 2,
+    "rating": 5,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/19867104"
+    ]
+  },
+  {
+    "id": "11",
+    "title": "Potatoes",
+    "description": "The use of potatoes improves the work of the heart and blood vessels. Baked tubers in a uniform are rich in potassium, which fights cardiovascular diseases",
+    "price": 4,
+    "category": 2,
+    "rating": 4,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/17766467"
+    ]
+  },
+  {
+    "id": "12",
+    "title": "Beets",
+    "description": "Beetroot effectively cleanses the intestines of toxins, blood vessels of cholesterol plaques, reducing the risk of atherosclerosis, heart attack, stroke. Regulates the process of hematopoiesis, metabolism in the body.",
+    "price": 3,
+    "category": 2,
+    "rating": 1,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/5271776"
+    ]
+  },
+  {
+    "id": "13",
+    "title": "Carrots",
+    "description": "Carrots affect twilight vision, are a means to prevent cataracts, retinal detachment, help with anemia, and support our immune system.",
+    "price": 9,
+    "category": 2,
+    "rating": 4,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/31183484"
+    ]
+  },
+  {
+    "id": "14",
+    "title": "Cucumbers",
+    "description": "Cucumbers contain vitamins and minerals, including vitamin K, vitamin C, potassium and magnesium.",
+    "price": 7,
+    "category": 2,
+    "rating": 3,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/27560619"
+    ]
+  },
+  {
+    "id": "15",
+    "title": "Radishes",
+    "description": "Radish is useful in moderation and has decongestant and choleretic properties. It perfectly stimulates appetite, stimulates intestinal peristalsis and facilitates its emptying, removes toxins from the body.",
+    "price": 2,
+    "category": 2,
+    "rating": 2,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/17765951"
+    ]
+  },
+  {
+    "id": "16",
+    "title": "Onions",
+    "description": "Onions promote the secretion of gastric juice and stimulate digestion. 100 g of onion contains only 41 kcal, which makes it a dietary product.",
+    "price": 3,
+    "category": 2,
+    "rating": 2,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/17766965"
+    ]
+  },
+  {
+    "id": "17",
+    "title": "Champignons",
+    "description": "All varieties of mushrooms contain fiber, which improves digestion and lowers blood glucose levels.",
+    "price": 12,
+    "category": 3,
+    "rating": 5,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/5271753"
+    ]
+  },
+  {
+    "id": "18",
+    "title": "Blak champignons",
+    "description": "All varieties of mushrooms contain fiber, which improves digestion and lowers blood glucose levels.",
+    "price": 15,
+    "category": 3,
+    "rating": 4,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/5364053"
+    ]
+  },
+  {
+    "id": "19",
+    "title": "Chanterelles",
+    "description": "All varieties of mushrooms contain fiber, which improves digestion and lowers blood glucose levels.",
+    "price": 11,
+    "category": 3,
+    "rating": 2,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/5271959"
+    ]
+  },
+  {
+    "id": "20",
+    "title": "Shimejis",
+    "description": "All varieties of mushrooms contain fiber, which improves digestion and lowers blood glucose levels.",
+    "price": 20,
+    "category": 3,
+    "rating": 3,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/5593599"
+    ]
+  },
+  {
+    "id": "21",
+    "title": "Bean sprout",
+    "description": "Bean sprout can help reduce anxiety caused by stress. They contain vitamin C, which helps reduce stress and improve mood.",
+    "price": 22,
+    "category": 4,
+    "rating": 2,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/17766440"
+    ]
+  },
+  {
+    "id": "22",
+    "title": "Celery",
+    "description": "Eating celery normalizes blood pressure, improves digestion and helps reduce cholesterol.",
+    "price": 18,
+    "category": 4,
+    "rating": 4,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/17766453"
+    ]
+  },
+  {
+    "id": "23",
+    "title": "Lettuce",
+    "description": "Lettuce leaf salad is very popular in cooking. It is usually consumed raw, making salads from it or adding it to various snacks, as well as boiled in meat, vegetable and fish dishes.",
+    "price": 15,
+    "category": 4,
+    "rating": 5,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/22342683"
+    ]
+  },
+  {
+    "id": "24",
+    "title": "Basil",
+    "description": "Regular consumption of leafy vegetables and herbs stimulates digestion, the work of the endocrine system, is beneficial for blood vessels, and also reduces the risk of chronic diseases, helps to reduce and normalize weight.",
+    "price": 18,
+    "category": 4,
+    "rating": 4,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/22353080"
+    ]
+  },
+  {
+    "id": "25",
+    "title": "Cilantro",
+    "description": "Regular consumption of leafy vegetables and herbs stimulates digestion, the work of the endocrine system, is beneficial for blood vessels, and also reduces the risk of chronic diseases, helps to reduce and normalize weight.",
+    "price": 12,
+    "category": 4,
+    "rating": 1,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/22406973"
+    ]
+  },
+  {
+    "id": "26",
+    "title": "Parsley",
+    "description": "Regular consumption of leafy vegetables and herbs stimulates digestion, the work of the endocrine system, is beneficial for blood vessels, and also reduces the risk of chronic diseases, helps to reduce and normalize weight.",
+    "price": 8,
+    "category": 4,
+    "rating": 3,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/26937286"
+    ]
+  },
+  {
+    "id": "27",
+    "title": "Dill",
+    "description": "Regular consumption of leafy vegetables and herbs stimulates digestion, the work of the endocrine system, is beneficial for blood vessels, and also reduces the risk of chronic diseases, helps to reduce and normalize weight.",
+    "price": 8,
+    "category": 4,
+    "rating": 3,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/22406852"
+    ]
+  },
+  {
+    "id": "28",
+    "title": "Green onion",
+    "description": "Regular consumption of leafy vegetables and herbs stimulates digestion, the work of the endocrine system, is beneficial for blood vessels, and also reduces the risk of chronic diseases, helps to reduce and normalize weight.",
+    "price": 10,
+    "category": 4,
+    "rating": 4,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/26937290"
+    ]
+  },
+  {
+    "id": "29",
+    "title": "Blueberry",
+    "description": "Berries improve appetite and stimulate digestion. Pectin, which is part of blueberries, helps to eliminate radioactive metals from the body.",
+    "price": 30,
+    "category": 5,
+    "rating": 5,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/17765927"
+    ]
+  },
+  {
+    "id": "30",
+    "title": "Bilberry",
+    "description": "Berries improve appetite and stimulate digestion. Pectin, which is part of blueberries, helps to eliminate radioactive metals from the body.",
+    "price": 35,
+    "category": 5,
+    "rating": 5,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/17765541"
+    ]
+  },
+  {
+    "id": "31",
+    "title": "Strawberry",
+    "description": "Berries improve appetite and stimulate digestion. Pectin, which is part of blueberries, helps to eliminate radioactive metals from the body.",
+    "price": 29,
+    "category": 5,
+    "rating": 4,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/17766128"
+    ]
+  },
+  {
+    "id": "32",
+    "title": "Raspberry",
+    "description": "Berries improve appetite and stimulate digestion. Pectin, which is part of blueberries, helps to eliminate radioactive metals from the body.",
+    "price": 33,
+    "category": 5,
+    "rating": 4,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/17765518"
+    ]
+  },
+  {
+    "id": "33",
+    "title": "Red currant",
+    "description": "Berries improve appetite and stimulate digestion. Pectin, which is part of blueberries, helps to eliminate radioactive metals from the body.",
+    "price": 18,
+    "category": 5,
+    "rating": 3,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/17765552"
+    ]
+  },
+  {
+    "id": "34",
+    "title": "Blakberry",
+    "description": "Berries improve appetite and stimulate digestion. Pectin, which is part of blueberries, helps to eliminate radioactive metals from the body.",
+    "price": 26,
+    "category": 5,
+    "rating": 2,
+    "images": [
+      "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/5669754"
+    ]
+  }
+]

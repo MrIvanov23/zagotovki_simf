@@ -1,0 +1,18 @@
+@import "../../../../scss/variables";
+
+.teamLink {
+    padding: 8px 0;
+
+    color: $main-text-color;
+
+    transition:
+        padding ease-in 300ms,
+        color ease-in 300ms,
+        transform ease-in 300ms;
+
+    &:hover {
+        padding-bottom: 12px;
+
+        color: $third-text-color;
+    }
+}
