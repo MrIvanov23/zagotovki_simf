@@ -75,15 +75,15 @@ const ShopSingleBlock: FC = () => {
                 )}
             </section>
 
-            <div className={styles.links}>
+            {/* <div className={styles.links}>
                 <Link to='/shop'>
-                    <ButtonMain buttonStyle="third" >Shop</ButtonMain>
+                    <ButtonMain buttonStyle="third" >Магазин</ButtonMain>
                 </Link>
 
                 <Link to='/cart'>
-                    <ButtonMain buttonStyle="third" >Cart</ButtonMain>
+                    <ButtonMain buttonStyle="third" >Корзина</ButtonMain>
                 </Link>
-            </div>
+            </div> */}
         </>
     );
 };

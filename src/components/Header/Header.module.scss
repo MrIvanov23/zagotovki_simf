@@ -1,6 +1,10 @@
 @import "../../scss/variables";
 
 .header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +46,7 @@
             @media (max-width: 1700px) {
                 width: 100%;
 
-                @media (max-width: 400px) {
+                @media (max-width: 767px) {
                     &:first-child {
                         flex-wrap: wrap;
                         gap: 20px;

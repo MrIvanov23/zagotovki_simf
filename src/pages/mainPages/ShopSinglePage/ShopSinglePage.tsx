@@ -7,7 +7,7 @@ import ShopRelatedProductsBlock from "../../../components/Main/ShopBlocks/ShopRe
 const ShopSinglePage: FC = () => {
     return (
         <main>
-            <BannerBlock title='Shop Single'/>
+            {/* <BannerBlock title='Shop Single'/> */}
             <ShopSingleBlock />
             <ShopRelatedProductsBlock />
         </main>

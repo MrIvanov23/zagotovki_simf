@@ -7,6 +7,8 @@ import { addCartItem, removeCartItem } from "../../../../redux/cart/slice";
 import { ICartItem } from "../../../../redux/cart/types";
 
 import ButtonMain from "../../Buttons/ButtonMain/ButtonMain";
+import { IconsCart2 } from "../../../_Icons/Icons";
+import { Link } from "react-router-dom";
 
 const CartActions: FC<ICartItem> = ({ id, title, price, images }) => {
     const dispatch = useAppDispatch();
@@ -30,19 +32,27 @@ const CartActions: FC<ICartItem> = ({ id, title, price, images }) => {
 
     return (
         <div className={styles.cartActions}>
-            <div className={styles.quantity}>
-                <h3>Количество :</h3>
+            {(cartItem && cartItem.quantity) ? (
+                <>
+                    <div className={styles.quantity}>
+                        <div className={styles.quantityButton}>
+                            <button onClick={onClickMinus}>-</button>
+                            <span>
+                                {cartItem ? cartItem.quantity : 0}
+                            </span>
+                            <button onClick={onClickAddToCart}>+</button>
+                        </div>
+                    </div>
 
-                <div className={styles.quantityButton}>
-                    <button onClick={onClickMinus}>-</button>
-                    <span>
-                        {cartItem ? cartItem.quantity : 0}
-                    </span>
-                    <button onClick={onClickAddToCart}>+</button>
-                </div>
-            </div>
-
-            <ButtonMain onClick={onClickAddToCart} >{cartItem ? 'Добавить еще' : 'В корзину'}</ButtonMain>
+                    <Link to='/cart'>
+                        <ButtonMain buttonStyle="fourth">
+                            <IconsCart2 />
+                        </ButtonMain>
+                    </Link>
+                </>
+            ) : (
+                <ButtonMain onClick={onClickAddToCart} >Добавить в корзину</ButtonMain>
+            )}
         </div>
     );
 };
