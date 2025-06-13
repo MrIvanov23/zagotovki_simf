@@ -18,7 +18,7 @@ const FoodCategories: FC = () => {
 
     return (
         <div className={styles.foodCategories}>
-            <h3>Categories</h3>
+            <h3>Категории:</h3>
 
             <ul>
                 {dataCategories.map((category) => (

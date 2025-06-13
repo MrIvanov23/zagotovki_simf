@@ -15,6 +15,7 @@ const ButtonMain: FC<IButtonMain> = ({ buttonStyle, children, onClick }) => {
         if (buttonStyle === 'main') return styles.buttonMain;
         if (buttonStyle === 'second') return styles.buttonSecond;
         if (buttonStyle === 'third') return styles.buttonThird;
+        if (buttonStyle === 'fourth') return styles.buttonFourth;
         return '';
     };
 
@@ -25,7 +26,7 @@ const ButtonMain: FC<IButtonMain> = ({ buttonStyle, children, onClick }) => {
             onClick={onClick}
         >
             { children }
-            {buttonStyle && <IconsButton />}
+            {(buttonStyle && buttonStyle !== 'fourth') && <IconsButton />}
         </button>
     );
 };

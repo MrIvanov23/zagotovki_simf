@@ -37,7 +37,7 @@ const ShopRelatedProductsBlock: FC = () => {
     
     return (
         <section className={styles.relatedProducts}>
-            <h2>Related Products</h2>
+            <h2>Похожие товары</h2>
             <div className={styles.wrapper}>
                 { status === 'error' && <span>Error feach...</span>}
 

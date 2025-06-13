@@ -20,7 +20,7 @@ const FoodCard: FC<IFoodCard> = ({ id, title, price, category, rating, images })
     return (
         <Link to={`/food/${id}`}>
             <article className={styles.card}>
-                <div className={styles.cardCategory}>{dataCategories[category].category}</div>
+                {/* <div className={styles.cardCategory}>{dataCategories[category].category}</div> */}
 
                 <div className={styles.cardImg}>
                     <img src={images[0]} alt={title} />
@@ -29,7 +29,7 @@ const FoodCard: FC<IFoodCard> = ({ id, title, price, category, rating, images })
                 <h3>{title}</h3>
                 <div className={styles.cardInfo}>
                     <FoodPrice price={price} />
-                    <FoodRating rating={rating} />
+                    {/* <FoodRating rating={rating} /> */}
                 </div>
             </article>
         </Link>
